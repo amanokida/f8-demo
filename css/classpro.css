@@ -1,0 +1,47 @@
+
+img.html{
+    position: relative;
+    width: 300px;
+    border-radius: 15px;
+}
+.header__class__pro{
+    position: relative;
+}
+.spanclassPro{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 1.9rem;
+    color: gold;
+    background-color: rgba(112, 128, 144, 0.259);
+    padding: 5px 8px ;
+    border-radius: 15px;
+}
+.monney__classPro{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    font-size: 1.4em;
+    
+}
+.magin__pHTML{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.monney__classPro::after{
+    content: "1.299.000d";
+    margin-left: 10px;
+    color: rgba(255, 0, 0, 0.744);
+    /* position: relative; */
+}
+.monney__classPro::before{
+    content: "";
+    position: absolute;
+    width: 74px;
+    height: 2px;
+    bottom: 10px;
+    
+    
+    background-color: black;
+}

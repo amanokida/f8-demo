@@ -1,0 +1,223 @@
+#container{
+    background-color: #f2f2f2e1;
+}
+.header{
+    display: flex;
+    height: 67px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #C0C0C0;
+    padding: 0px 20px;
+}
+.header .logoimg p{
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+.header .logoimg img.f8{
+    width: 40px;
+}
+.header .search__header input.header_search{
+    position: relative;
+    height: 45px;
+    width: 421px;
+    border-radius: 23px;
+    padding:0px 45px ;
+    border: 2px solid #C0C0C0;
+    background: none;
+}
+.header .search__header i{
+    position: absolute;
+    font-size: 2.4rem;
+    color:#808080;
+    top: 21px;
+    margin-left: 14px;
+}
+.wrapper{
+    margin-top: 67px;
+    display: flex;
+}
+.wrapper .headerleft{
+    position: fixed;
+    width: 95px;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_headerleft ul.menu_headerleft__menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.menu_headerleft ul.menu_headerleft__menu li i {
+    font-size: 2.6rem;
+} 
+.menu_headerleft ul.menu_headerleft__menu li {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.btnulbackroght{
+    width: 80px;
+    height: 50px;
+    padding: 5px 0px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #c0c0c06a;
+}
+
+.headebody_khoahocPro_fontchu{
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+.headerbody_khoahocjPro_{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 200px;
+    background-color: #2b66e4;
+    padding: 3px 7px;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    color: #ffffff;
+}
+.sizeKhoahocPro{
+    position: relative;
+    width: 300px;
+    height: 160px;
+    border-radius: 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(to right, #5b88eb, #2b66e4);
+}
+.sizeKhoahocPro i{
+    position: absolute;
+    top:  10px;
+    left: 10px;
+    background-color: gold;
+    -webkit-background-clip:text ;
+    
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    color: none;
+    border: 2px solid #5b88eb;
+    
+}
+
+.body{
+    
+    width: 100%;
+    height: 100vh;
+    margin-left: 100px;
+}
+.body__1{
+    width: 100%;
+    /* width: 1370px; */
+    height: 310px;
+     
+    white-space: nowrap;
+    overflow-x:scroll;
+    padding: 10px 0px;
+    margin-top: 10px;
+    
+}
+.body__1__1{
+    width: 1370px;
+    height: 266px;
+    display: inline-block;
+    margin-left: 35px;
+    /* background-color: #2b66e4; */
+}
+.container__body__1__1{
+    width: 1300px;
+    height: 266px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(to right, #5b88eb, #2b66e4); */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0px 10px 0px 30px;
+}
+.container__body__1__1_right img{
+    max-width: 470px;
+}
+
+
+.header__class{
+    position: relative;
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.header__class::after{
+    content: "NEW";
+    top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    background-color: #5b88eb;
+    font-size: 1.3rem;
+    padding: 3px;
+    border-radius: 15px;
+}
+.bodyacbac{
+    width: 100%;
+    height: 100vh;
+    background-color: #2b66e4;
+}
+.container_login__menu{
+    width: 300px;
+    height: 450px;
+    border: 2px solid #5b88eb;
+    
+}
+.body{
+    overflow-x: auto;
+}
+.wrapper__2{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    margin-left: 35px;
+    
+}
+.class__free_pp{
+    font-size: 1.5rem;
+}
+.body__wrapper__2__menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container__class__pro{
+    margin-bottom: 20px;
+}
+.footer__f8__wed{
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+
+
+
+
